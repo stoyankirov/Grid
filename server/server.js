@@ -7,7 +7,6 @@ app.use(cors());
 let jsonData = require('./resources/MOCK_DATA');
 
 app.get("/", (req,res) => {
-    //res.json({status: 'ok', message: jsonData});
     res.json(jsonData);
 });
 
